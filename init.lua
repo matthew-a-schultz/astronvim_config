@@ -13,4 +13,12 @@ return {
       end,
     },
   },
+  mappings = {
+    n = {
+      ["<Left>"] = { ":echo \"Use h\"<CR>" },
+      ["<Right>"] = { ":echo \"Use l\"<CR>" },
+      ["<Up>"] = { ":echo \"Use k\"<CR>" },
+      ["<Down>"] = { ":echo \"Use j\"<CR>" },
+    },
+  },
 }
