@@ -2,6 +2,7 @@ return {
   lsp = {
     servers = {
       "gdscript",
+      "omnisharp_mono"
     },
     config = {
       gdscript = function()
@@ -19,6 +20,7 @@ return {
       ["<Right>"] = { ":echo \"Use l\"<CR>" },
       ["<Up>"] = { ":echo \"Use k\"<CR>" },
       ["<Down>"] = { ":echo \"Use j\"<CR>" },
+      ["<leader>G"] = { ":te godot -d<CR>"},
     },
   },
 }
