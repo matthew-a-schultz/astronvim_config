@@ -1,8 +1,7 @@
 return {
   lsp = {
     servers = {
-      "gdscript",
-      "omnisharp_mono"
+      "gdscript"
     },
     config = {
       gdscript = function()
